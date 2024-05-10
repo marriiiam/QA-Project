@@ -1,0 +1,276 @@
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .product {
+        margin: 20px;
+        text-align: center;
+    }
+
+    .product img {
+        width: 320px; /* Adjust as needed */
+        height:450px; /* Maintain aspect ratio */
+        margin-bottom:20px; /* Add space between image and button */
+        margin-top:20px;
+		}
+       
+	.product img:hover {
+        transform: scale(1.2); /* Increase size by 20% */
+		opacity: 0.5;
+    }
+
+    .add-to-cart {
+        background-color: #f8f8f8;
+        border: none;
+        color: black;
+        padding: 30px 110px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+		font-family: 'Sofia Sans', sans-serif;
+        margin-top: -5px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+	
+	.price{
+	 font-size: 16px;
+	 font-family: 'Sofia Sans', sans-serif;
+	 color: #A0A0A0;
+	 margin-top :0px
+	
+	}
+	
+		.sticky{
+				position: -webkit-sticky;
+				position: fixed;
+				top: 0;
+				z-index:100;
+			}
+		
+			/* add to cart  */
+			
+				.cart{
+				display: flex;
+				align-items: center;
+			}
+
+			.addimg {
+				width: 400px; 
+				height: auto;
+				margin-right: 30px; 
+				margin-left: 50px;
+				padding-left: 150px;
+				padding-right: 80px;
+			}
+			 .addimg:hover {
+               transform: scale(1.2); /* Increase size by 20% */
+		        opacity: 0.5;
+               }
+				
+			.desctext{
+				font-family: 'Sofia Sans', sans-serif;
+				margin-right: 40px;
+				margin-left: 10px;
+				font-size: 17px;
+				color: gray;
+			}
+			
+			.addbtn{
+				background-color:  rgb(209,172,170,0.2);
+				font-family: 'Sofia Sans', sans-serif;
+				padding:20px 50px;
+				font-size: 17px;
+				border: none;
+				margin-left: 50px;
+			}
+			 .addbtn:hover {
+               background-color: rgb(209,172,170,0.5);
+              }
+			
+			#box{
+				width: 300px;
+				border: 1px solid gray;
+				padding:16px 40px;
+			}
+			
+			.addicon {
+				display: flex;
+				align-items: center;
+			}
+
+			.addicon img {
+				width: 25px;
+				margin-left: 20px;
+				cursor: pointer;
+			}
+			
+			.cartrectangle {
+              position: absolute;
+             top: 0;
+             left: 0;
+             width: 550px; /* Adjust width */
+             height: 550px; /* Adjust height */
+             background-color: rgb(209,172,170,0.1); /* Adjust color */
+             z-index: -1; /* Ensure the rectangle stays behind other content */
+             }
+             .sticky{
+				position: -webkit-sticky;
+				position: fixed;
+				top: 0;
+				z-index:100;
+			}
+			
+			
+			
+		 .to-gallery {
+            font-family: 'Sofia Sans', sans-serif;
+            font-size: 18px;
+            margin-top: 1px; /* Add space between arrow and text */
+        }
+		.arrow-icongall {
+            font-size: 60px;
+            color: gray;
+            text-decoration: none; /* Remove default underline */
+			margin-top: 500px;
+			margin-right: 340px;
+			margin-left: 240px;
+        }
+		 .to-homee {
+            font-family: 'Sofia Sans', sans-serif;
+            font-size: 26px;
+            margin-top: 1px; /* Add space between arrow and text */
+        }
+		
+			.arrow-iconhome {
+            font-size: 60px;
+            color: gray;
+            text-decoration: none; /* Remove default underline */
+			margin-top: 500px;
+			margin-right: 340px;
+			margin-left:440px;
+        }
+		
+	
+	.message {
+	  display: none;
+	  position: fixed;
+	  width:150px;
+	  height:20px;
+	  bottom: 30px;
+	  margin-bottom:0px;
+	  left: 50%;
+	  transform: translateX(-50%);
+	  background-color: rgb(209,172,170,0.2);
+	  color: black;
+	  padding: 10px 20px;
+	  border-radius: 5px;
+	  animation: fadeOut 2s ease-in-out 4s forwards;
+	}
+
+	@keyframes fadeOut {
+	  0% { opacity: 1; }
+	  90% { opacity: 1; }
+	  100% { opacity: 0; }
+	}
+
+	.message:target {
+	  display: block;
+	}
+	
+	
+	
+	.hmessage {
+	  display: none;
+	  position: fixed;
+	  width:150px;
+	  height:20px;
+	  bottom: 30px;
+	  margin-bottom:0px;
+	  left: 50%;
+	  transform: translateX(-50%);
+	  background-color: rgb(209,172,170,0.2);
+	  color: black;
+	  padding: 10px 20px;
+	  border-radius: 5px;
+	  animation: fadeOut 2s ease-in-out 4s forwards;
+	}
+
+	@keyframes fadeOut {
+	  0% { opacity: 1; }
+	  90% { opacity: 1; }
+	  100% { opacity: 0; }
+	}
+
+	.hmessage:target {
+	  display: block;
+	}
+	
+	
+	
+	
+	font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.star-wrapper {
+    display: flex;
+    margin-left: 175px;
+    justify-content: center;
+    align-items: center;
+}
+.submit-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.star-rating {
+    direction: rtl;
+    font-size: 30px;
+}
+
+.star-rating input[type="radio"] {
+    display: none;
+}
+
+.star-rating label {
+    color: #ccc;
+    cursor: pointer;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label,
+.star-rating input[type="radio"]:checked ~ label {
+    color: #f0c419;
+}
+
+textarea {
+    width: 150%;
+    margin: 10px 10px;
+    min-height: 100px;
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
