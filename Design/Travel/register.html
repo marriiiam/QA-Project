@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">	
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="https://fonts.cdnfonts.com/css/sofia-sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"  type="text/css" href="mainproduct.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        body {
+            font-family: 'Sofia Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            background-image: url('cover.jpg'); /* Change this to your new background image */
+            background-size: cover; /* Adjust as needed */
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.3);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .container h2 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            background-color: transparent; /* Make text field background transparent */
+        }
+
+        .login-button {
+            width: 100%;
+            padding: 15px;
+            background-color: transparent; /* Make button background transparent */
+            color: #fff; /* Text color */
+            border: 2px solid #fff; /* White outline */
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .login-button:hover {
+            background-color: #fff; /* Change background color on hover */
+            color: #333; /* Change text color on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <iframe class="sticky" src="header.html" frameborder="0" width="100%" height="300" SCROLLING="NO" style="background-color:rgba(255, 255, 255, 0.2);height:55px;"></iframe>
+    <div class="container">
+       
+        <br>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="user_fullname">Full Name</label>
+                <input type="text" name="user_fullname" id="user_fullname" placeholder="Full Name" required>
+            </div>
+            <div class="form-group">
+                <label for="user_email">Email</label>
+                <input type="email" name="user_email" id="user_email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <label for="user_password">Password</label>
+                <input type="password" name="user_password" id="user_password" placeholder="Password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm_password">Confirm Password</label>
+                <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm Password" required>
+            </div>
+            <button type="submit" class="login-button">Register</button><br>
+        </form>
+    </div><br><br><br><br>
+
+</body>
+</html>

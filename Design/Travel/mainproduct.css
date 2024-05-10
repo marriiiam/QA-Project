@@ -1,0 +1,243 @@
+ .crismas{
+            display: flex;
+            align-items: center;
+        }
+
+        .img1 {
+            width: 800px; /* Adjust as needed */
+            height: 550px; /* Maintain aspect ratio */
+            margin-right: 30px; /* Add space between image and text */
+			margin-left: 50px;
+			
+        }
+		.img2 {
+            width: 800px; /* Adjust as needed */
+            height: 550px ; /* Maintain aspect ratio */
+            margin-right: 30px; /* Add space between image and text */
+			margin-left: 1px;
+        }
+		.img1:hover {
+        transform: scale(1.1); /* Increase size by 20% */
+		opacity: 0.6;
+         }
+		 .img2:hover {
+        transform: scale(1.1); /* Increase size by 20% */
+		opacity: 0.6;
+         }
+
+
+		.text1{
+		font-family: 'Sofia Sans', sans-serif;
+        margin-right: 80px;
+		margin-left: 10px;
+        font-size: 35px;
+		margin-top: -100px;
+		
+		}
+		
+		.text2{
+		
+		font-family: 'Sofia Sans', sans-serif;
+		
+        margin-right: 40px;
+		margin-left: 10px;
+         font-size: 28px;
+		 color: #c0c0c0;
+		 margin-top: -25px;		 
+	      }
+		  
+		   .arrow-icon {
+            font-size: 54px;
+            color: black;
+            text-decoration: none; /* Remove default underline */
+			margin-top: 150px;
+			margin-right: 340px;
+			margin-left: -540px;
+        }
+
+        .to-gallery {
+            font-family: 'Sofia Sans', sans-serif;
+            font-size: 20px;
+            margin-top: 1px; /* Add space between arrow and text */
+        }
+		
+		.plates{
+            display: flex;
+            align-items: center;
+        }
+		.mugs{
+            display: flex;
+            align-items: center;
+        }
+		 .decor{
+            display: flex;
+            align-items: center;
+        }
+		
+      .valentine{
+            display: flex;
+            align-items: center;
+			
+        }
+		 .vimg1 {
+            width:800px; /* Adjust as needed */
+            height:550px; /* Maintain aspect ratio */
+            margin-right: 30px; /* Add space between image and text */
+			margin-left: 50px;
+        }
+		.vimg2 {
+            width: 800px; /* Adjust as needed */
+            height: 550px; /* Maintain aspect ratio */
+            margin-right: 30px; /* Add space between image and text */
+			margin-left: 1px;
+        }
+		.vimg1:hover {
+        transform: scale(1.1); /* Increase size by 20% */
+		opacity: 0.6;
+         }
+		 .vimg2:hover {
+        transform: scale(1.1); /* Increase size by 20% */
+		opacity: 0.6;
+         }
+		
+		body {
+    margin: 0;
+    padding: 0;
+}
+
+.rectangle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1450px; /* Adjust width */
+    height: 130px; /* Adjust height */
+    background-color: rgb(209,172,170,0.1); /* Adjust color */
+    z-index: -1; /* Ensure the rectangle stays behind other content */
+}
+
+   
+
+        .container {
+            max-width:500px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color:rgba(255, 255, 255, 0.4);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .container h2 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .checkbox-group {
+            margin-bottom: 20px;
+        }
+
+        .checkbox-group label {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+       .login-button {
+            width: 100%;
+            padding: 10px;
+            background-color: #f8f8f8; /* Off-white color */
+            color: #333; /* Text color */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+			font-family: 'Sofia Sans', sans-serif;
+        }
+		
+		  .log-button {
+            width: 48%;
+            padding: 30px;
+            background-color: #f8f8f8; /* Off-white color */
+            color: #333; /* Text color */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+			font-size:20px
+			
+        }
+		
+		  .Reg-button {
+            width: 48%;
+            padding: 30px;
+            background-color: #f8f8f8; /* Off-white color */
+            color: #333; /* Text color */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+			font-size:20px
+			
+			
+	
+        }
+
+        .login-button:hover {
+            background-color: #e0e0e0; /* Lighter off-white color on hover */
+        }
+
+        .lost-password {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        .lost-password:hover {
+            text-decoration: underline;
+        }
+
+        .register-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .register-link a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        .register-link a:hover {
+            text-decoration: underline;
+        }
+		
+		  .to-home {
+            font-family: 'Sofia Sans', sans-serif;
+            font-size: 20px;
+            margin-top: 1px; /* Add space between arrow and text */
+        }
+		.arrow-iconlo {
+            font-size: 80px;
+            color: white;
+            text-decoration: none; /* Remove default underline */
+			margin-top: 300px;
+			margin-right: 340px;
+			margin-left: 540px;
+        }
